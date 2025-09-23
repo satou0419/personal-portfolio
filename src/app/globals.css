@@ -1,11 +1,22 @@
 :root {
-  --background: #ffffff;
+  /* Light mode */
+  --background: linear-gradient(135deg, #f0f4f8 0%, #dbeafe 100%);
   --foreground: #171717;
+  --primary: #3b82f6;      /* vivid blue */
+  --secondary: #64748b;    /* muted slate gray */
+}
+
+html.dark {
+  /* Dark mode */
+  --background: linear-gradient(135deg, #0d1117 0%, #1e293b 100%);
+  --foreground: #ededed;
+  --primary: #60a5fa;      /* soft blue */
+  --secondary: #94a3b8;    /* muted gray-blue */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
     --foreground: #ededed;
   }
 }
