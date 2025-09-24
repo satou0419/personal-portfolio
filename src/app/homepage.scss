@@ -1,42 +1,58 @@
-#content-homepage{
-    height: 100vh;
+/* ===========================
+   Main Wrapper
+   =========================== */
+.homepage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
 }
 
-#nav-homepage{
-    display:flex;
-    flex-direction: row;
-    height: 60px;
+/* ===========================
+   Navigation
+   =========================== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  padding: 0 2rem;
+  background: var(--background);
+  border-bottom: 1px solid var(--secondary);
+
+  &__logo img {
+    height: 40px;
+    width: auto;
+  }
+
+  &__menu {
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__item {
+    display: flex;
     align-items: center;
-    justify-content: space-between;
+  }
 
-    img{
-        height: 100%;
+  &__link {
+    text-decoration: none;
+    color: var(--foreground);
+    font-weight: 500;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s ease, border-color 0.3s ease;
+
+    &:hover,
+    &:focus {
+      color: var(--primary);
+      border-color: var(--primary);
     }
-
-    ul{
-        display:flex;
-        flex-direction: row;
-        list-style-type: none;
-        justify-content: space-evenly;
-        align-items: center;
-        height: 100%;
-        
-        
-        li{
-            height: 100%;
-            width: 100%;
-
-            display:flex;
-            align-items: center;
-            padding: 0 2em;
-            border: 2px solid green;
-            cursor: pointer;
-            
-            &:hover{
-                background-color: red;
-            }
-        }
-
-        
-    }
+  }
 }

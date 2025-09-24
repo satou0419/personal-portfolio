@@ -1,0 +1,35 @@
+<svg width="507" height="191" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" overflow="hidden">
+  <defs>
+    <clipPath id="clip0">
+      <rect x="1707" y="1108" width="507" height="191"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip0)" transform="translate(-1707 -1108)">
+    <!-- Left angle bracket -->
+    <text fill="#1F2937" font-family="Arial Black,Arial Black_MSFontService,sans-serif" font-weight="900" font-size="64" transform="matrix(1 0 0 1 1762.35 1227)">&lt;</text>
+    
+    <!-- REY -->
+    <text fill="#FC5F55" font-family="Arial Black,Arial Black_MSFontService,sans-serif" font-weight="900" font-size="83" transform="matrix(1 0 0 1 1804.74 1227)">R</text>
+    <text fill="#FC5F55" font-family="Arial Black,Arial Black_MSFontService,sans-serif" font-weight="900" font-size="55" transform="matrix(1 0 0 1 1868.91 1227)">EY</text>
+    
+    <!-- D -->
+    <text fill="#FDBB40" font-family="Arial Black,Arial Black_MSFontService,sans-serif" font-weight="900" font-size="83" transform="matrix(1 0 0 1 1951.41 1227)">D</text>
+    
+    <!-- EV -->
+    <text fill="#34C449" font-family="Arial Black,Arial Black_MSFontService,sans-serif" font-weight="900" font-size="55" transform="matrix(1 0 0 1 2015.58 1227)">EV</text>
+    
+    <!-- Right angle bracket -->
+    <text fill="#1F2937" font-family="Arial Black,Arial Black_MSFontService,sans-serif" font-weight="900" font-size="64" transform="matrix(1 0 0 1 2098.08 1227)">/&gt;</text>
+    
+    <!-- Dots -->
+    <path d="M1891 1254.5C1891 1249.25 1895.48 1245 1901 1245 1906.52 1245 1911 1249.25 1911 1254.5 1911 1259.75 1906.52 1264 1901 1264 1895.48 1264 1891 1259.75 1891 1254.5Z" fill="#FC5F55"/>
+    <path d="M1951 1254.5C1951 1249.25 1955.25 1245 1960.5 1245 1965.75 1245 1970 1249.25 1970 1254.5 1970 1259.75 1965.75 1264 1960.5 1264 1955.25 1264 1951 1259.75 1951 1254.5Z" fill="#FDBB40"/>
+    <path d="M2010 1254.5C2010 1249.25 2014.25 1245 2019.5 1245 2024.75 1245 2029 1249.25 2029 1254.5 2029 1259.75 2024.75 1264 2019.5 1264 2014.25 1264 2010 1259.75 2010 1254.5Z" fill="#34C449"/>
+    
+    <!-- Hat / details -->
+    <path d="M1977.69 1152.5C1978.11 1152.69 1978.39 1152.95 1978.47 1153.26 1978.81 1154.5 1975.92 1156.19 1972.02 1157.03 1968.61 1157.77 1965.56 1157.61 1964.63 1156.73L1964.5 1156.53 1966.49 1156.15C1970.09 1155.3 1973.48 1154.18 1976.74 1152.9L1977.69 1152.5Z" stroke="#1F2937" stroke-width="0.6875" fill="#000000" fill-opacity="0.6"/>
+    <path d="M0 0.814749C0.192091 0.385004 0.445162 0.108688 0.755632 0.0258613 1.99754-0.305417 3.68761 2.58481 4.5305 6.48141 5.26807 9.89095 5.11264 12.9412 4.23025 13.8724L4.02627 14.0001 3.65037 12.009C2.80092 8.4064 1.67736 5.02399 0.398399 1.76364L0 0.814749Z" stroke="#1F2937" stroke-width="0.6875" fill="#000000" fill-opacity="0.6" transform="matrix(0 1 1 0 1943.5 1152.5)"/>
+    <path d="M1940.58 1134.79 1946.59 1113.43 1960.84 1108.64 1974.82 1113.7 1979.77 1134.72 1960.73 1141.91 1940.58 1134.79Z" fill="#1F2937" fill-opacity="0.7"/>
+    <path d="M1984.52 1137 1998 1141.05C1985.59 1146.66 1975.06 1154.67 1960.43 1157 1945.23 1155.08 1934.81 1146.25 1922 1140.88L1935.65 1137.17 1960.26 1145.88 1984.52 1137Z" fill="#1F2937" fill-opacity="0.5"/>
+  </g>
+</svg>
